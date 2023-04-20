@@ -1,0 +1,124 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 2px #000;
+  color: #FFF;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  background-color: #3a0000;
+  justify-content: center;
+}
+
+.site_title {
+  color: #FFF;
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.site_title_desc {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  width: 990px;
+  justify-content: center;
+
+}
+
+#banner {
+  background-image: url('images/diophoto.jpg');
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.banner_desc_box {
+  background-color: #5a0000;
+  width: 1500px;
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.banner_desc {
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#geral {
+  background-color: #1b0000;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline {
+  background-color: #3a0000;
+  width: 1540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.timeline_title {
+  font-size: 50px;
+  color: #FFF;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.biografia {
+  font-size: 20px;
+  color: #FFF;
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+}
+
+footer {
+  background-color: #0c0000;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.copy,
+.insta {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.insta a {
+  text-decoration: none;
+}
+
+.baixo {
+  justify-content: space-between;
+}
